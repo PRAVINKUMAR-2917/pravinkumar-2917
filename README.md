@@ -19,13 +19,7 @@
 
 
 ## 🌐 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pravinkukmar-2917)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pravinkumar-2917)
 
 ---
-
-⭐️ From - Pravinkumar
-
-## 📊 Most Used Languages
-[![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=pravinkumar-2917&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
 <h2 align="center"> :handshake:Thank You for Visiting!:handshake:</h2>
