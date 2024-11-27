@@ -1,5 +1,5 @@
 
-<h1 align="center">Hi 👋, I'm Pravin! 👩‍💻</h1>
+<h1 align="center">Hi 👋, I'm Pravin Kumar ! 👩‍💻</h1>
 <h2 align="center">🏆 Aspiring Data Analyst 🪶</h2>
 
 ## 🚀 About Me
