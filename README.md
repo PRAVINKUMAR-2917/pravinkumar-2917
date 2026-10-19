@@ -8,6 +8,28 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-PRAVINKUMAR--2917-101923?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PRAVINKUMAR-2917)
 [![Live Resume](https://img.shields.io/badge/Live_Resume-View-0a9f81?style=for-the-badge&logo=streamlit&logoColor=white)](https://resume-pravinkumar.streamlit.app/)
+[![PRAVINVERSE](https://img.shields.io/badge/PRAVINVERSE-LAUNCH_NOW-00e5a0?style=for-the-badge&logo=githubpages&logoColor=black)](https://pravinkumar-2917.github.io/PRAVINVERSE/)
+
+</div>
+
+---
+
+## `> launch --pravinverse`
+
+<div align="center">
+
+### 🚀 PRAVINVERSE — My Interactive Hacker Universe
+
+**One desktop. Multiple worlds. Endless possibilities.**
+
+♟️ **Chess Arena** • 🧩 **Sudoku Lab** • 📊 **Data Analytics**  
+💻 **Hacker Terminal** • 🏆 **Achievements** • 🔐 **Secret Missions**
+
+### [⚡ ENTER PRAVINVERSE — LAUNCH LIVE WEBSITE ⚡](https://pravinkumar-2917.github.io/PRAVINVERSE/)
+
+*Explore my skills and projects through an interactive, hacker-inspired desktop experience.*
+
+[![Explore Source Code](https://img.shields.io/badge/EXPLORE_SOURCE_CODE-PRAVINVERSE-181717?style=for-the-badge&logo=github)](https://github.com/PRAVINKUMAR-2917/PRAVINVERSE)
 
 </div>
 
@@ -24,6 +46,8 @@ My focus is simple: **less repetitive reporting, more useful insight**.
 ROLE      : Data Analyst
 FOCUS     : Analytics • Automation • Business Intelligence
 TOOLKIT   : Python / SQL / Power BI / Excel / Streamlit
+PORTFOLIO : PRAVINVERSE
+STATUS    : ONLINE
 MODE      : Learn → Build → Improve
 ```
 
@@ -41,13 +65,11 @@ MODE      : Learn → Build → Improve
 
 | Project | What it does |
 | :--- | :--- |
+| **[PRAVINVERSE](https://pravinkumar-2917.github.io/PRAVINVERSE/)** | Live interactive hacker portfolio featuring Chess, Sudoku, analytics, terminal commands, and achievements. |
 | **BMW-Infinitycars Live MIS Dashboard** | Internal Streamlit/Python solution for recurring MIS reporting and KPI tracking. *Internal work; source/data not publicly shared.* |
 | **Dynamic Attendance Tracker** | Excel and Power BI reporting workflow using Power Query. |
 | **Blinkit Grocery Dashboard** | Excel-based sales and category analysis with interactive reporting. |
 | **Road Accident Analysis** | Python and Power BI analysis of accident trends and hotspots. |
-| **Interactive Hacker Desktop** | Personal portfolio-in-progress featuring a terminal, playable Chess and Sudoku, interactive analytics, and achievements. |
-
-> **Note:** The interactive hacker desktop is currently being developed. Its public link will be added after deployment.
 
 ## `> experience --highlights`
 
@@ -66,11 +88,19 @@ MODE      : Learn → Build → Improve
 ```text
 [01] Build thoughtful, real-world analytics tools       ██████████
 [02] Make reporting more automated and reliable       ██████████
-[03] Ship a playable, interactive developer portfolio  ███████░░░
+[03] Launch my interactive developer portfolio        ██████████
 [04] Keep learning, experimenting, and improving       ██████████
 ```
 
+## `> connect --online`
+
 <div align="center">
+
+**Explore my live portfolio, source code, and professional work.**
+
+[🌐 Launch PRAVINVERSE](https://pravinkumar-2917.github.io/PRAVINVERSE/) • [💻 GitHub](https://github.com/PRAVINKUMAR-2917) • [📄 Live Resume](https://resume-pravinkumar.streamlit.app/)
+
+---
 
 **Thanks for visiting. Explore the work, follow the experiments, and stay curious.**
 
