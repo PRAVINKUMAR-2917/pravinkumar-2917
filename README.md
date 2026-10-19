@@ -44,7 +44,7 @@ I enjoy moving beyond reports: **understand the problem → model the data → b
 
 ## `> stack --all-systems`
 
-![Core analytics and development toolkit](./assets/stack.svg?v=8)
+![Core analytics and development toolkit](./assets/stack.svg?v=9)
 
 ![AI, development, infrastructure and productivity stack](./assets/ai-systems.svg?v=8)
 
