@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/hero.gif" alt="Animated neon hacker banner introducing Pravinkumar M, Data Analyst" width="100%" />
+<img src="./hero.gif" alt="Animated neon hacker banner introducing Pravinkumar M, Data Analyst" width="100%" />
 
 ### Data Analyst • Python Automation • Business Intelligence
 
