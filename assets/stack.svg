@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="PRAVINVERSE animated professional profile">
+ <style>
+:root{color-scheme:dark}
+@keyframes sparkle{0%,100%{opacity:.25}50%{opacity:.92}}
+@keyframes tick{to{stroke-dashoffset:-130}}
+@keyframes shimmer{0%,60%{transform:translateX(-700px)}95%,100%{transform:translateX(950px)}}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@keyframes arole{0%,22%{opacity:1}25%,100%{opacity:0}}
+@keyframes brole{0%,22%{opacity:0}25%,48%{opacity:1}51%,100%{opacity:0}}
+@keyframes crole{0%,48%{opacity:0}51%,73%{opacity:1}76%,100%{opacity:0}}
+@keyframes drole{0%,73%{opacity:0}76%,98%{opacity:1}100%{opacity:0}}
+@keyframes aslide{0%,29%{opacity:1}33%,99%{opacity:0}}
+@keyframes bslide{0%,29%{opacity:0}33%,62%{opacity:1}66%,99%{opacity:0}}
+@keyframes cslide{0%,62%{opacity:0}66%,96%{opacity:1}100%{opacity:0}}
+@keyframes dash{to{stroke-dashoffset:-180}}
+@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes glow{0%,100%{filter:drop-shadow(0px 0px 3px #247bff)}50%{filter:drop-shadow(0px 0px 10px #247bff)}}
+.spark{animation:sparkle 3.5s ease-in-out infinite}
+.floater{animation:floaty 5s ease-in-out infinite}
+.spinDash{animation:dash 18s linear infinite}
+.sheen{animation:shimmer 8s ease-in-out infinite}
+.roleA{animation:arole 12s linear infinite}.roleB{animation:brole 12s linear infinite}.roleC{animation:crole 12s linear infinite}.roleD{animation:drole 12s linear infinite}
+.slideA{animation:aslide 12s linear infinite}.slideB{animation:bslide 12s linear infinite}.slideC{animation:cslide 12s linear infinite}
+.pulse{animation:pulse 4s ease-in-out infinite}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.roleB,.roleC,.roleD,.slideB,.slideC{opacity:0!important}.roleA,.slideA{opacity:1!important}}
+</style><defs>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b32"/><stop offset="1" stop-color="#070b16"/></linearGradient>
+  <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#23ddff"/><stop offset=".6" stop-color="#247bff"/><stop offset="1" stop-color="#8c5cff"/></linearGradient>
+  <linearGradient id="red" x1="0" x2="1"><stop stop-color="#ff354f"/><stop offset="1" stop-color="#ff8f70"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#247bff" stop-opacity=".9"/><stop offset=".55" stop-color="#27314f"/><stop offset="1" stop-color="#ff354f" stop-opacity=".78"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#247bff" stop-opacity=".32"/><stop offset="1" stop-color="#247bff" stop-opacity="0"/></radialGradient>
+  <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2e466e" opacity=".40"/></pattern>
+  <pattern id="mesh" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#193255" stroke-width="1" opacity=".22"/></pattern>
+  <clipPath id="inside"><rect x="2" y="2" width="996" height="1000" rx="23"/></clipPath>
+  
+ </defs>
+ <rect width="1000" height="420" rx="24" fill="#070b16"/>
+ <rect width="1000" height="420" rx="24" fill="url(#mesh)"/>
+ <rect width="1000" height="420" rx="24" fill="url(#dots)" opacity=".6"/>
+ <rect x="1.5" y="1.5" width="997" height="417" rx="22.5" fill="none" stroke="url(#edge)" stroke-opacity=".75" stroke-width="2"/>
+ <path d="M26 5H118" stroke="#247bff" stroke-width="6" stroke-linecap="round"/><path d="M880 415H974" stroke="#ff354f" stroke-width="6" stroke-linecap="round"/>
+ <text x="35" y="46" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >02 / TECH STACK</text><text x="35" y="94" fill="#f8faff" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800" letter-spacing="0" >THE TOOLKIT.</text><text x="36" y="124" fill="#9fb5ce" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" letter-spacing="0" >Built for analysis, automation &amp; business intelligence.</text><circle cx="340" cy="280" r="155" fill="url(#halo)" opacity=".8"/>
+<ellipse cx="350" cy="283" rx="240" ry="95" fill="none" stroke="#2f79ff" stroke-dasharray="9 8" opacity=".5" class="spinDash"/>
+<ellipse cx="350" cy="283" rx="206" ry="130" transform="rotate(-26 350 283)" fill="none" stroke="#f34d70" stroke-dasharray="5 9" opacity=".52" class="spinDash"/>
+<ellipse cx="350" cy="283" rx="190" ry="110" transform="rotate(28 350 283)" fill="none" stroke="#33d7b9" stroke-dasharray="5 10" opacity=".55" class="spinDash"/>
+<circle cx="350" cy="283" r="63" fill="#172442" stroke="#3d7de0" stroke-width="2"/>
+<text x="350" y="273" fill="#f1f7ff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="1" text-anchor="middle">DATA</text><text x="350" y="305" fill="#78c8fd" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" text-anchor="middle">ENGINE</text><g class="floater"><rect x="154" y="185" width="105" height="34" rx="16" fill="#172339" stroke="#498cff" stroke-width="1.4"/><text x="206.5" y="207" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">PYTHON</text></g><g class="floater"><rect x="475" y="167" width="105" height="34" rx="16" fill="#172339" stroke="#f86b7c" stroke-width="1.4"/><text x="527.5" y="189" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">SQL</text></g><g class="floater"><rect x="94" y="282" width="114" height="34" rx="16" fill="#172339" stroke="#f9c451" stroke-width="1.4"/><text x="151.0" y="304" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">POWER BI</text></g><g class="floater"><rect x="531" y="267" width="105" height="34" rx="16" fill="#172339" stroke="#42d8a2" stroke-width="1.4"/><text x="583.5" y="289" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">EXCEL</text></g><g class="floater"><rect x="160" y="350" width="105" height="34" rx="16" fill="#172339" stroke="#64c7ff" stroke-width="1.4"/><text x="212.5" y="372" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">PANDAS</text></g><g class="floater"><rect x="478" y="364" width="124" height="34" rx="16" fill="#172339" stroke="#f36f94" stroke-width="1.4"/><text x="540.0" y="386" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">STREAMLIT</text></g><path d="M676 135V390" stroke="#293952" stroke-width="2"/>
+<rect x="704" y="157" width="255" height="65" rx="13" fill="#112139" stroke="#31609b"/>
+<text x="719" y="182" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >ANALYSIS</text><text x="719" y="206" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >Pandas · NumPy · SQL</text><rect x="704" y="237" width="255" height="65" rx="13" fill="#112139" stroke="#74425a"/>
+<text x="719" y="262" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >AUTOMATION</text><text x="719" y="287" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >Excel · VBA · Python</text><rect x="704" y="318" width="255" height="65" rx="13" fill="#112139" stroke="#346f6a"/>
+<text x="719" y="343" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >VISUALIZATION</text><text x="719" y="369" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >Power BI · Streamlit</text></svg>
