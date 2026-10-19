@@ -1,51 +1,350 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="420" viewBox="0 0 1000 420" role="img" aria-label="PRAVINVERSE animated professional profile">
- <style>
-:root{color-scheme:dark}
-@keyframes sparkle{0%,100%{opacity:.25}50%{opacity:.92}}
-@keyframes tick{to{stroke-dashoffset:-130}}
-@keyframes shimmer{0%,60%{transform:translateX(-700px)}95%,100%{transform:translateX(950px)}}
-@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
-@keyframes arole{0%,22%{opacity:1}25%,100%{opacity:0}}
-@keyframes brole{0%,22%{opacity:0}25%,48%{opacity:1}51%,100%{opacity:0}}
-@keyframes crole{0%,48%{opacity:0}51%,73%{opacity:1}76%,100%{opacity:0}}
-@keyframes drole{0%,73%{opacity:0}76%,98%{opacity:1}100%{opacity:0}}
-@keyframes aslide{0%,29%{opacity:1}33%,99%{opacity:0}}
-@keyframes bslide{0%,29%{opacity:0}33%,62%{opacity:1}66%,99%{opacity:0}}
-@keyframes cslide{0%,62%{opacity:0}66%,96%{opacity:1}100%{opacity:0}}
-@keyframes dash{to{stroke-dashoffset:-180}}
-@keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
-@keyframes glow{0%,100%{filter:drop-shadow(0px 0px 3px #247bff)}50%{filter:drop-shadow(0px 0px 10px #247bff)}}
-.spark{animation:sparkle 3.5s ease-in-out infinite}
-.floater{animation:floaty 5s ease-in-out infinite}
-.spinDash{animation:dash 18s linear infinite}
-.sheen{animation:shimmer 8s ease-in-out infinite}
-.roleA{animation:arole 12s linear infinite}.roleB{animation:brole 12s linear infinite}.roleC{animation:crole 12s linear infinite}.roleD{animation:drole 12s linear infinite}
-.slideA{animation:aslide 12s linear infinite}.slideB{animation:bslide 12s linear infinite}.slideC{animation:cslide 12s linear infinite}
-.pulse{animation:pulse 4s ease-in-out infinite}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.roleB,.roleC,.roleD,.slideB,.slideC{opacity:0!important}.roleA,.slideA{opacity:1!important}}
-</style><defs>
-  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111b32"/><stop offset="1" stop-color="#070b16"/></linearGradient>
-  <linearGradient id="blue" x1="0" x2="1"><stop stop-color="#23ddff"/><stop offset=".6" stop-color="#247bff"/><stop offset="1" stop-color="#8c5cff"/></linearGradient>
-  <linearGradient id="red" x1="0" x2="1"><stop stop-color="#ff354f"/><stop offset="1" stop-color="#ff8f70"/></linearGradient>
-  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#247bff" stop-opacity=".9"/><stop offset=".55" stop-color="#27314f"/><stop offset="1" stop-color="#ff354f" stop-opacity=".78"/></linearGradient>
-  <radialGradient id="halo"><stop stop-color="#247bff" stop-opacity=".32"/><stop offset="1" stop-color="#247bff" stop-opacity="0"/></radialGradient>
-  <pattern id="dots" width="25" height="25" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#2e466e" opacity=".40"/></pattern>
-  <pattern id="mesh" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#193255" stroke-width="1" opacity=".22"/></pattern>
-  <clipPath id="inside"><rect x="2" y="2" width="996" height="1000" rx="23"/></clipPath>
-  
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1598" viewBox="0 0 1200 1598" role="img" aria-labelledby="stitle sdesc">
+<title id="stitle">All Systems — Pravinkumar M technical skill universe</title>
+<desc id="sdesc">Twelve readable panels covering analytics and BI, Python, AI and LLMs, backend APIs, frontend, SQL databases, cloud deployment, workflow automation, developer tools, AI development, analytical thinking, and product development.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080f21"/><stop offset=".5" stop-color="#0b1127"/><stop offset="1" stop-color="#180f27"/></linearGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#43e2ff"/><stop offset=".5" stop-color="#5387ff"/><stop offset="1" stop-color="#ff4d92"/></linearGradient>
+ <linearGradient id="head" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f3f8ff"/><stop offset="1" stop-color="#b5d7ff"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#336dff" stop-opacity=".25"/><stop offset="1" stop-color="#336dff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#29496e" stroke-opacity=".21" stroke-width="1"/></pattern>
+ <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2" /></filter>
  </defs>
- <rect width="1000" height="420" rx="24" fill="#070b16"/>
- <rect width="1000" height="420" rx="24" fill="url(#mesh)"/>
- <rect width="1000" height="420" rx="24" fill="url(#dots)" opacity=".6"/>
- <rect x="1.5" y="1.5" width="997" height="417" rx="22.5" fill="none" stroke="url(#edge)" stroke-opacity=".75" stroke-width="2"/>
- <path d="M26 5H118" stroke="#247bff" stroke-width="6" stroke-linecap="round"/><path d="M880 415H974" stroke="#ff354f" stroke-width="6" stroke-linecap="round"/>
- <text x="35" y="46" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >02 / TECH UNIVERSE</text><text x="35" y="94" fill="#f8faff" font-family="Arial, Helvetica, sans-serif" font-size="43" font-weight="800" letter-spacing="0" >THE TECH ARSENAL.</text><text x="36" y="124" fill="#9fb5ce" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="500" letter-spacing="0" >Data analytics, AI integrations, apps &amp; cloud systems.</text><circle cx="340" cy="280" r="155" fill="url(#halo)" opacity=".8"/>
-<ellipse cx="350" cy="283" rx="240" ry="95" fill="none" stroke="#2f79ff" stroke-dasharray="9 8" opacity=".5" class="spinDash"/>
-<ellipse cx="350" cy="283" rx="206" ry="130" transform="rotate(-26 350 283)" fill="none" stroke="#f34d70" stroke-dasharray="5 9" opacity=".52" class="spinDash"/>
-<ellipse cx="350" cy="283" rx="190" ry="110" transform="rotate(28 350 283)" fill="none" stroke="#33d7b9" stroke-dasharray="5 10" opacity=".55" class="spinDash"/>
-<circle cx="350" cy="283" r="63" fill="#172442" stroke="#3d7de0" stroke-width="2"/>
-<text x="350" y="273" fill="#f1f7ff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" letter-spacing="1" text-anchor="middle">DATA</text><text x="350" y="305" fill="#78c8fd" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="3" text-anchor="middle">ENGINE</text><g class="floater"><rect x="154" y="185" width="105" height="34" rx="16" fill="#172339" stroke="#498cff" stroke-width="1.4"/><text x="206.5" y="207" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">PYTHON</text></g><g class="floater"><rect x="475" y="167" width="105" height="34" rx="16" fill="#172339" stroke="#f86b7c" stroke-width="1.4"/><text x="527.5" y="189" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">SQL</text></g><g class="floater"><rect x="94" y="282" width="114" height="34" rx="16" fill="#172339" stroke="#f9c451" stroke-width="1.4"/><text x="151.0" y="304" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">POWER BI</text></g><g class="floater"><rect x="531" y="267" width="105" height="34" rx="16" fill="#172339" stroke="#42d8a2" stroke-width="1.4"/><text x="583.5" y="289" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">EXCEL</text></g><g class="floater"><rect x="160" y="350" width="105" height="34" rx="16" fill="#172339" stroke="#64c7ff" stroke-width="1.4"/><text x="212.5" y="372" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">PANDAS</text></g><g class="floater"><rect x="478" y="364" width="124" height="34" rx="16" fill="#172339" stroke="#f36f94" stroke-width="1.4"/><text x="540.0" y="386" fill="#eff4ff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="1" text-anchor="middle">STREAMLIT</text></g><path d="M676 135V390" stroke="#293952" stroke-width="2"/>
-<rect x="704" y="157" width="255" height="65" rx="13" fill="#112139" stroke="#31609b"/>
-<text x="719" y="182" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >AI + LLMS</text><text x="719" y="206" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >Gemini · Ollama · Qwen</text><rect x="704" y="237" width="255" height="65" rx="13" fill="#112139" stroke="#74425a"/>
-<text x="719" y="262" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >CLOUD + DATA</text><text x="719" y="287" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >Render · Neon · pgAdmin</text><rect x="704" y="318" width="255" height="65" rx="13" fill="#112139" stroke="#346f6a"/>
-<text x="719" y="343" fill="#78aaff" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="3" >FULL-STACK</text><text x="719" y="369" fill="#ecf2ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="600" letter-spacing="0" >React · FastAPI · APIs</text></svg>
+ <style>
+ @keyframes shimmer{0%,100%{opacity:.28}50%{opacity:.95}}
+ @keyframes slide{0%{stroke-dashoffset:0}100%{stroke-dashoffset:-90}}
+ @keyframes rise{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:translateY(0)}}
+ @keyframes beam{0%,100%{opacity:.4}50%{opacity:1}}
+ .led{animation:shimmer 4s ease-in-out infinite}
+ .dash{animation:slide 13s linear infinite}
+ .card{animation:rise .8s ease-out both}
+ .beam{animation:beam 5s ease-in-out infinite}
+ @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+ </style>
+<rect width="1200" height="1598" rx="26" fill="url(#bg)"/>
+<rect width="1200" height="1598" rx="26" fill="url(#grid)"/>
+<circle cx="870" cy="130" r="280" fill="url(#halo)"/>
+<rect x="1.5" y="1.5" width="1197" height="1595" rx="25" fill="none" stroke="url(#edge)" stroke-width="2" stroke-opacity=".88"/>
+<path d="M26 4H164" stroke="#56dbff" stroke-width="7" stroke-linecap="round"/><path d="M1033 1594H1171" stroke="#ff658e" stroke-width="7" stroke-linecap="round"/>
+<rect x="36" y="32" width="218" height="29" rx="14" fill="#142942" stroke="#31678a"/><circle cx="53" cy="46.5" r="4" fill="#57f3b2" class="led"/><text x="68" y="52" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" letter-spacing="2" fill="#8de8ff">SYSTEMS ONLINE</text>
+<text x="36" y="124" font-family="Arial, Helvetica, sans-serif" font-size="57" font-weight="900" letter-spacing="-1" fill="url(#head)">STACK / ALL SYSTEMS</text>
+<text x="38" y="160" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#aac5e8">DATA ANALYST  /  AI APPLICATION BUILDER  /  AUTOMATION ENGINEER</text>
+<text x="38" y="198" font-family="Arial, Helvetica, sans-serif" font-size="17" fill="#8fabc7">Analytics, LLMs, code, databases, cloud, product delivery — a connected toolkit.</text>
+<path d="M36 213H1165" stroke="#365d7c" stroke-dasharray="8 9" stroke-width="2" class="dash"/>
+<g class="card" style="animation-delay:0.00s">
+<rect x="35" y="238" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="239" width="6" height="192" rx="3" fill="#56dcff" opacity=".94"/>
+<text x="60" y="273" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">DATA ANALYSIS + BI</text>
+<text x="60" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">From messy spreadsheets to decisions</text>
+<text x="560" y="270" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#56dcff" opacity=".8">01</text>
+<rect x="59" y="317" width="152" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Advanced Excel</text>
+<rect x="219" y="317" width="98" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="231" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Power BI</text>
+<rect x="325" y="317" width="62" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="337" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">DAX</text>
+<rect x="395" y="317" width="130" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="407" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Power Query</text>
+<rect x="59" y="346" width="123" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Power Pivot</text>
+<rect x="190" y="346" width="59" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="202" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">SQL</text>
+<rect x="257" y="346" width="119" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="269" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">PivotTables</text>
+<rect x="384" y="346" width="153" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="396" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">KPI Dashboards</text>
+<rect x="59" y="375" width="143" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="391" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Data Modeling</text>
+<rect x="210" y="375" width="196" height="23" rx="11" fill="#56dcff" fill-opacity=".11" stroke="#56dcff" stroke-opacity=".48" stroke-width="1"/>
+<text x="222" y="391" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Business Intelligence</text>
+</g>
+<g class="card" style="animation-delay:0.00s">
+<rect x="612" y="238" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="239" width="6" height="192" rx="3" fill="#81f0b6" opacity=".94"/>
+<text x="637" y="273" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">PYTHON + ANALYTICS</text>
+<text x="637" y="298" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Processing, automation and visualization</text>
+<text x="1137" y="270" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#81f0b6" opacity=".8">02</text>
+<rect x="636" y="317" width="84" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Python</text>
+<rect x="728" y="317" width="86" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="740" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Pandas</text>
+<rect x="822" y="317" width="84" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="834" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">NumPy</text>
+<rect x="914" y="317" width="109" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="926" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">OpenPyXL</text>
+<rect x="1031" y="317" width="109" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="1043" y="333" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Matplotlib</text>
+<rect x="636" y="346" width="94" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Seaborn</text>
+<rect x="738" y="346" width="102" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="750" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Streamlit</text>
+<rect x="848" y="346" width="61" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="860" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">EDA</text>
+<rect x="917" y="346" width="139" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="929" y="362" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Data Cleaning</text>
+<rect x="636" y="375" width="133" height="23" rx="11" fill="#81f0b6" fill-opacity=".11" stroke="#81f0b6" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="391" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">ETL Pipelines</text>
+</g>
+<g class="card" style="animation-delay:0.09s">
+<rect x="35" y="450" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="451" width="6" height="192" rx="3" fill="#b591ff" opacity=".94"/>
+<text x="60" y="485" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">AI + LARGE LANGUAGE MODELS</text>
+<text x="60" y="510" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Practical LLM integration and experiments</text>
+<text x="560" y="482" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#b591ff" opacity=".8">03</text>
+<rect x="59" y="529" width="160" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Google AI Studio</text>
+<rect x="227" y="529" width="115" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="239" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Gemini API</text>
+<rect x="350" y="529" width="83" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="362" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Ollama</text>
+<rect x="441" y="529" width="109" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="453" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Qwen LLM</text>
+<rect x="59" y="558" width="137" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Llama Models</text>
+<rect x="204" y="558" width="146" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="216" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Prompt Design</text>
+<rect x="358" y="558" width="147" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="370" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">LLM Workflows</text>
+<rect x="59" y="587" width="156" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="603" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">AI Provider APIs</text>
+<rect x="223" y="587" width="152" height="23" rx="11" fill="#b591ff" fill-opacity=".11" stroke="#b591ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="235" y="603" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">JSON Validation</text>
+</g>
+<g class="card" style="animation-delay:0.09s">
+<rect x="612" y="450" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="451" width="6" height="192" rx="3" fill="#ff7ca9" opacity=".94"/>
+<text x="637" y="485" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">BACKEND + API ENGINEERING</text>
+<text x="637" y="510" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Web services and data-driven products</text>
+<text x="1137" y="482" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#ff7ca9" opacity=".8">04</text>
+<rect x="636" y="529" width="88" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">FastAPI</text>
+<rect x="732" y="529" width="97" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="744" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Pydantic</text>
+<rect x="837" y="529" width="108" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="849" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">REST APIs</text>
+<rect x="953" y="529" width="156" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="965" y="545" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Python Services</text>
+<rect x="636" y="558" width="88" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Node.js</text>
+<rect x="732" y="558" width="90" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="744" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Express</text>
+<rect x="830" y="558" width="124" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="842" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">HTTP / JSON</text>
+<rect x="962" y="558" width="72" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="974" y="574" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CORS</text>
+<rect x="636" y="587" width="162" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="603" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Async Workflows</text>
+<rect x="806" y="587" width="148" height="23" rx="11" fill="#ff7ca9" fill-opacity=".11" stroke="#ff7ca9" stroke-opacity=".48" stroke-width="1"/>
+<text x="818" y="603" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">API Integration</text>
+</g>
+<g class="card" style="animation-delay:0.18s">
+<rect x="35" y="662" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="663" width="6" height="192" rx="3" fill="#53dcef" opacity=".94"/>
+<text x="60" y="697" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">FRONTEND + INTERFACES</text>
+<text x="60" y="722" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Responsive apps and interactive experiences</text>
+<text x="560" y="694" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#53dcef" opacity=".8">05</text>
+<rect x="59" y="741" width="73" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">React</text>
+<rect x="140" y="741" width="109" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="152" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">JavaScript</text>
+<rect x="257" y="741" width="112" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="269" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">TypeScript</text>
+<rect x="377" y="741" width="82" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="389" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">HTML5</text>
+<rect x="467" y="741" width="68" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="479" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CSS3</text>
+<rect x="59" y="770" width="60" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Vite</text>
+<rect x="127" y="770" width="60" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="139" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CRA</text>
+<rect x="195" y="770" width="126" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="207" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Lucide Icons</text>
+<rect x="329" y="770" width="140" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="341" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Responsive UI</text>
+<rect x="59" y="799" width="171" height="23" rx="11" fill="#53dcef" fill-opacity=".11" stroke="#53dcef" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="815" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Interactive Charts</text>
+</g>
+<g class="card" style="animation-delay:0.18s">
+<rect x="612" y="662" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="663" width="6" height="192" rx="3" fill="#ffbd70" opacity=".94"/>
+<text x="637" y="697" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">DATABASES + SQL</text>
+<text x="637" y="722" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Querying, modeling and cloud storage</text>
+<text x="1137" y="694" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#ffbd70" opacity=".8">06</text>
+<rect x="636" y="741" width="121" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">PostgreSQL</text>
+<rect x="765" y="741" width="69" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="777" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Neon</text>
+<rect x="842" y="741" width="99" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="854" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">pgAdmin</text>
+<rect x="949" y="741" width="102" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="961" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">SQL Joins</text>
+<rect x="1059" y="741" width="66" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="1071" y="757" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CTEs</text>
+<rect x="636" y="770" width="173" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Window Functions</text>
+<rect x="817" y="770" width="118" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="829" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Subqueries</text>
+<rect x="943" y="770" width="182" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="955" y="786" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Query Optimization</text>
+<rect x="636" y="799" width="150" height="23" rx="11" fill="#ffbd70" fill-opacity=".11" stroke="#ffbd70" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="815" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Data Validation</text>
+</g>
+<g class="card" style="animation-delay:0.27s">
+<rect x="35" y="874" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="875" width="6" height="192" rx="3" fill="#7bc8ff" opacity=".94"/>
+<text x="60" y="909" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">CLOUD + DEPLOYMENT</text>
+<text x="60" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Shipping apps from local to live</text>
+<text x="560" y="906" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#7bc8ff" opacity=".8">07</text>
+<rect x="59" y="953" width="85" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Render</text>
+<rect x="152" y="953" width="135" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="164" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">GitHub Pages</text>
+<rect x="295" y="953" width="147" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="307" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">GitHub Actions</text>
+<rect x="59" y="982" width="133" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Google Cloud</text>
+<rect x="200" y="982" width="51" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="212" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Git</text>
+<rect x="259" y="982" width="83" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="271" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">GitHub</text>
+<rect x="350" y="982" width="141" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="362" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Static Hosting</text>
+<rect x="499" y="982" width="71" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="511" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CI/CD</text>
+<rect x="59" y="1011" width="184" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1027" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Environment Config</text>
+<rect x="251" y="1011" width="180" height="23" rx="11" fill="#7bc8ff" fill-opacity=".11" stroke="#7bc8ff" stroke-opacity=".48" stroke-width="1"/>
+<text x="263" y="1027" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Deployment Debug</text>
+</g>
+<g class="card" style="animation-delay:0.27s">
+<rect x="612" y="874" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="875" width="6" height="192" rx="3" fill="#84e6b0" opacity=".94"/>
+<text x="637" y="909" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">AUTOMATION + BUSINESS OPS</text>
+<text x="637" y="934" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Removing repetitive work from teams</text>
+<text x="1137" y="906" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#84e6b0" opacity=".8">08</text>
+<rect x="636" y="953" width="107" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Excel VBA</text>
+<rect x="751" y="953" width="155" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="763" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">MIS Automation</text>
+<rect x="914" y="953" width="145" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="926" y="969" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">CRM / TeleCRM</text>
+<rect x="636" y="982" width="159" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Email Workflows</text>
+<rect x="803" y="982" width="191" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="815" y="998" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Attendance Systems</text>
+<rect x="636" y="1011" width="173" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1027" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Incentive Tracking</text>
+<rect x="817" y="1011" width="135" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="829" y="1027" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Daily Reports</text>
+<rect x="960" y="1011" width="163" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="972" y="1027" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Power Query ETL</text>
+<rect x="636" y="1040" width="194" height="23" rx="11" fill="#84e6b0" fill-opacity=".11" stroke="#84e6b0" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1056" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Scheduled Reporting</text>
+</g>
+<g class="card" style="animation-delay:0.36s">
+<rect x="35" y="1086" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="1087" width="6" height="192" rx="3" fill="#f58ad0" opacity=".94"/>
+<text x="60" y="1121" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">DEVELOPER WORKSTATION</text>
+<text x="60" y="1146" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Coding, testing and debugging toolchain</text>
+<text x="560" y="1118" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#f58ad0" opacity=".8">09</text>
+<rect x="59" y="1165" width="94" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">VS Code</text>
+<rect x="161" y="1165" width="227" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="173" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Visual Studio Community</text>
+<rect x="396" y="1165" width="117" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="408" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">PowerShell</text>
+<rect x="59" y="1194" width="140" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Windows CMD</text>
+<rect x="207" y="1194" width="63" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="219" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">npm</text>
+<rect x="278" y="1194" width="106" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="290" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">pip / venv</text>
+<rect x="392" y="1194" width="81" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="404" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Git CLI</text>
+<rect x="59" y="1223" width="169" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Browser DevTools</text>
+<rect x="236" y="1223" width="172" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="248" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">TypeScript Checks</text>
+<rect x="416" y="1223" width="85" height="23" rx="11" fill="#f58ad0" fill-opacity=".11" stroke="#f58ad0" stroke-opacity=".48" stroke-width="1"/>
+<text x="428" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Testing</text>
+</g>
+<g class="card" style="animation-delay:0.36s">
+<rect x="612" y="1086" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="1087" width="6" height="192" rx="3" fill="#ac9aff" opacity=".94"/>
+<text x="637" y="1121" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">AI DEVELOPMENT WORKFLOWS</text>
+<text x="637" y="1146" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Coding assistants and tool integration</text>
+<text x="1137" y="1118" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#ac9aff" opacity=".8">10</text>
+<rect x="636" y="1165" width="127" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Claude Code</text>
+<rect x="771" y="1165" width="128" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="783" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">MCP Servers</text>
+<rect x="907" y="1165" width="136" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="919" y="1181" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">21st.dev MCP</text>
+<rect x="636" y="1194" width="116" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">OmniRoute</text>
+<rect x="760" y="1194" width="84" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="772" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Gemini</text>
+<rect x="852" y="1194" width="139" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="864" y="1210" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">LLM Sampling</text>
+<rect x="636" y="1223" width="186" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Prompt Engineering</text>
+<rect x="830" y="1223" width="151" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="842" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Schema Checks</text>
+<rect x="989" y="1223" width="154" height="23" rx="11" fill="#ac9aff" fill-opacity=".11" stroke="#ac9aff" stroke-opacity=".48" stroke-width="1"/>
+<text x="1001" y="1239" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Model Fallbacks</text>
+</g>
+<g class="card" style="animation-delay:0.45s">
+<rect x="35" y="1298" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="36" y="1299" width="6" height="192" rx="3" fill="#ffd37c" opacity=".94"/>
+<text x="60" y="1333" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">ANALYTICAL THINKING</text>
+<text x="60" y="1358" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Turning business questions into insights</text>
+<text x="560" y="1330" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#ffd37c" opacity=".8">11</text>
+<rect x="59" y="1377" width="127" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Data Quality</text>
+<rect x="194" y="1377" width="114" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="206" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">KPI Design</text>
+<rect x="316" y="1377" width="143" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="328" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Trend Analysis</text>
+<rect x="59" y="1406" width="178" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1422" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Anomaly Detection</text>
+<rect x="245" y="1406" width="173" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="257" y="1422" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Dashboard Design</text>
+<rect x="59" y="1435" width="179" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1451" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Report Automation</text>
+<rect x="246" y="1435" width="182" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="258" y="1451" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Business Reporting</text>
+<rect x="59" y="1464" width="150" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="71" y="1480" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Chart Selection</text>
+<rect x="217" y="1464" width="174" height="23" rx="11" fill="#ffd37c" fill-opacity=".11" stroke="#ffd37c" stroke-opacity=".48" stroke-width="1"/>
+<text x="229" y="1480" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Semantic Columns</text>
+</g>
+<g class="card" style="animation-delay:0.45s">
+<rect x="612" y="1298" width="553" height="194" rx="19" fill="#0f1d35" stroke="#344869" stroke-width="1.6"/>
+<rect x="613" y="1299" width="6" height="192" rx="3" fill="#5ee3da" opacity=".94"/>
+<text x="637" y="1333" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="850" fill="#f3f7ff">PRODUCT BUILDING + SAAS</text>
+<text x="637" y="1358" font-family="Arial, Helvetica, sans-serif" font-size="15.5" fill="#a5bbd5">Real applications, real delivery</text>
+<text x="1137" y="1330" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="800" fill="#5ee3da" opacity=".8">12</text>
+<rect x="636" y="1377" width="93" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">MISly AI</text>
+<rect x="737" y="1377" width="146" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="749" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Streamlit Apps</text>
+<rect x="891" y="1377" width="154" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="903" y="1393" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">React + FastAPI</text>
+<rect x="636" y="1406" width="176" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1422" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Excel / CSV Upload</text>
+<rect x="820" y="1406" width="125" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="832" y="1422" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">PDF Exports</text>
+<rect x="953" y="1406" width="136" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="965" y="1422" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Excel Reports</text>
+<rect x="636" y="1435" width="177" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1451" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Gemini Integration</text>
+<rect x="821" y="1435" width="156" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="833" y="1451" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Free / Paid Tiers</text>
+<rect x="985" y="1435" width="152" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="997" y="1451" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">User Workflows</text>
+<rect x="636" y="1464" width="124" height="23" rx="11" fill="#5ee3da" fill-opacity=".11" stroke="#5ee3da" stroke-opacity=".48" stroke-width="1"/>
+<text x="648" y="1480" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" font-weight="700" fill="#ecf4ff">Deployment</text>
+</g>
+<path d="M40 1514 H1160" stroke="#335175" stroke-width="1"/>
+<text x="44" y="1552" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" fill="#8dcbff">PRAVINKUMAR M  /  BUILT TO ANALYZE, AUTOMATE &amp; SHIP</text>
+<text x="1155" y="1552" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#88a5c4">MISly AI  ·  Data  ·  APIs  ·  Products</text>
+</svg>
