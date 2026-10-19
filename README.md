@@ -1,6 +1,6 @@
 <div align="center">
 
-![PRAVINVERSE animated introduction](./assets/hero.svg?v=1)
+![PRAVINVERSE animated introduction](./assets/hero.svg?v=2)
 
 [![Enter PRAVINVERSE](https://img.shields.io/badge/ENTER-PRAVINVERSE-247bff?style=for-the-badge&logo=githubpages&logoColor=white)](https://pravinkumar-2917.github.io/PRAVINVERSE/)
 [![GitHub](https://img.shields.io/badge/GITHUB-SOURCE_CODE-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/PRAVINKUMAR-2917)
