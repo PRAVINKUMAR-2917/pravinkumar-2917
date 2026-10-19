@@ -10,11 +10,11 @@
 
 </div>
 
-![About and hobbies](./assets/about-life.svg?v=1)
+![About and hobbies](./assets/about-life.svg?v=2)
 
-![Technical skills](./assets/stack.svg?v=1)
+![Technical skills](./assets/stack.svg?v=2)
 
-![Identity card](./assets/id-dashboard.svg?v=1)
+![Identity card](./assets/id-dashboard.svg?v=2)
 
 ### `> projects --featured`
 
@@ -38,7 +38,7 @@
 **BSc (Applied Science – Energy)** — IGNOU *(ongoing)*  
 **Data Analyst program** — Masai School *(2025)*
 
-![Connect with Pravinkumar](./assets/connect.svg?v=1)
+![Connect with Pravinkumar](./assets/connect.svg?v=2)
 
 <div align="center">
 
